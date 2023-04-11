@@ -13,6 +13,7 @@ Inicio
    Escreval ("Digite seu nome: ")
    leia(nome)
 
+   Escreval ("Utiliza (F) para Feminino e (M) para Masculino")
    Escreval ("Digite seu sexo: ")
    leia(sexo)
 
