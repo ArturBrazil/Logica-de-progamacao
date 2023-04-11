@@ -21,7 +21,8 @@ Inicio
    leia(EstadoCivil)
 
    limpatela
-
+   
+   // caso sexo seja F e casada, será solicitado a quantidade de tempo em anos do casamento, caso contratio ira mostrar Nome, Sexo e Estado civil. 
    se (sexo = "F") e (EstadoCivil = "casada") entao
       escreval ("Informe quanto tempo de matrimonio em anos: ", tempodematrimonio)
       leia(TempodeMatrimonio)
