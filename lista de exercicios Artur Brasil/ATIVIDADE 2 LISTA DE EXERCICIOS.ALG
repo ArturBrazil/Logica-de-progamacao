@@ -1,15 +1,15 @@
 Algoritmo "Atividade 2 lista de exercicios"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Artur Ribeiro Cana Brasil
 // Data atual  : 30/03/2023
 Var
-   // Seção de Declarações das variáveis
-   nome, sexo, EstadoCivil, TempodeMatrimonio :caracter
-
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
+   nome, sexo, EstadoCivil :caracter
+   TempodeMatrimonio :inteiro
 Inicio
-   // Solicitação de informações ao usuario
+   // SolicitaÃ§Ã£o de informaÃ§Ãµes ao usuario
    Escreval ("Digite seu nome: ")
    leia(nome)
 
