@@ -1,15 +1,15 @@
 Algoritmo "Atividade 3 Lista de Exercicios"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Artur Ribeiro Cana Brasil
 // Data atual  : 30/03/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    A, B, C :inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // Solicitando valor ao usuario
    escreval ("Digite o valor de A: ")
    leia(A)
 
@@ -17,12 +17,14 @@ Inicio
    leia(B)
    
    limpatela
-
-   se (A = B) então
+   
+   //calculando os valores de A e B, caso seja valores iguais entÃ£o soma o valor de A e B, caso valores sejam diferentes, multiplica o valor de A e B.
+   se (A = B) entÃ£o
    C <- A+B
-      escreval("Valor de C= ", C)
    senao
-   C <- A*B
-      escreval("Valor de C= ", C)
+   C <- A*B   
    fimse
+      
+   // Mostrando o valor da variavel C para o ususario.   
+      escreval("Valor de C= ", C)
    Fimalgoritmo
