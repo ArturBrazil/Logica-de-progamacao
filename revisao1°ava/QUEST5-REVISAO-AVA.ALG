@@ -1,9 +1,9 @@
 Algoritmo "Quest5-revisao-AVA"
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Artur Ribeiro Cana Brasil
 // Data atual  : 16/05/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    salario : real
    numf : real
    fami :real
@@ -20,13 +20,12 @@ Inicio
       fami <- fami + 1
       soma <- soma + salario
       somaf <- somaf + numf
-      media <- soma / fami
-      mediaf <- somaf / fami
    fimenquanto
 
+   limpatela
 
    escreval("")
    escreval("Total de familias: ", fami)
-   escreval("Media salarial: ", media)
-   escreval("Média de filhos por familia: ", mediaf)  
+   escreval("Media salarial: ", soma / fami)
+   escreval("MÃ©dia de filhos por familia: ", somaf / fami)Â Â 
 Fimalgoritmo
