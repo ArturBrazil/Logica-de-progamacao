@@ -1,16 +1,16 @@
 Algoritmo "Atividade 1, lista de exercicios"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 30/03/2023
 
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 A,B,C :inteiro
 
 Inicio
-// Solicitação de informações ao usuario
+// SolicitaÃ§Ã£o de informaÃ§Ãµes ao usuario
 Escreval ("Digite o valor de A: ")
 leia(A)
 
@@ -23,8 +23,20 @@ leia(C)
 limpatela
 
 se (A+B < C) entao
-   Escreval ("Valor de A+B é menor que C.")
+   Escreval ("Valor de A+B Ã© menor que C.")
 senao
-   Escreval ("Valor de A+B é maior que C.")
+   Escreval ("Valor de A+B Ã© maior que C.")
 fimse
 Fimalgoritmo
+
+
+
+
+
+int numero; // inteiro
+float meida; // real
+char sexo; // somente um caracter
+char nome [50]; // caracter
+(O valor adicionado dentro dos coxetes Ã© referente
+a quantiade de caracter)
+printf("Idade: %i", idade);
