@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//1° Atividade em C, Se/Senao (If/Else)
+
 int main() {
     float valor;
     
