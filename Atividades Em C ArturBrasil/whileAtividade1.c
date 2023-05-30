@@ -21,7 +21,7 @@ i++; //CONTADOR
 	
 	media = soma/i;
 	
-	printf("Media: %f", media);
+	printf("Media: %.2f", media);
 	
 return 0;
 }
