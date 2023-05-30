@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 int main() {
-    int i, nota = 0, soma = 0;
-    float media = 0;
+    int i, nota = 0;
+    float media = 0, soma = 0;
 
     for (i = 0; i < 3; i++) {
         do {
@@ -19,12 +19,12 @@ int main() {
         } while (1);
     }
 
-    media = (float) soma / i;
+    media =  soma / i;
 
     if (media >= 7) {
         printf("Aprovado!\n");
     } else if (media >= 5 && media < 7) {
-        printf("Em recuperação.\n");
+        printf("Em recuperaÃ§Ã£o.\n");
     } else {
         printf("Reprovado!\n");
     }
