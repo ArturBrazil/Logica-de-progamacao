@@ -4,8 +4,8 @@
 #include <time.h>
 
 struct teste{
-    char nome[3][250];
-    int idade[3];
+    char nome[2][250];
+    int idade[2];
 };
 
 int main()
@@ -15,18 +15,17 @@ int main()
 
     setlocale(LC_ALL, ""); // PT-BR
 
-    for (i = 0; i < 3; i++){
+    for (i = 0; i < 2; i++){
         printf("Informe seu nome: \n");
-        gets(teste[i].nome);
         fflush(stdin);
-
+        gets(teste[i].nome[i]);
         printf("Informe sua idade: \n");
-        scanf("%d", teste[i].idade);
+        scanf("%d", &teste[i].idade[i]);
     }
 
-    for (i = 0; i < 3; i++){
-        printf("Nome: \n", teste[i].nome);
-        printf("Idade: \n", teste[i].idade);
-        sleep(5);
+    for (i = 0; i < 2; i++){
+        printf("Nome: %s \n", teste[i].nome[i]);
+        printf("Idade: %d \n", teste[i].idade[i]);  
     }
+    
 }
