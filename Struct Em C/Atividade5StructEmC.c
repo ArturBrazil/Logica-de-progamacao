@@ -4,7 +4,9 @@
 struct Aluno {
 	int matricula;
 	char nome[50];
-	float nota[3];
+	float nota1;
+	float nota2;
+	float nota3;
 };
 
 int main() {
@@ -17,7 +19,7 @@ int main() {
 
 	// Entrada de dados
 	for (i = 0; i < 5; i++) {
-		printf("Informe a matrícula do aluno: ");
+		printf("Informe a matrÃ­cula do aluno: ");
 		scanf("%d", &alunos[i].matricula);
 		fflush(stdin);
 		printf("Informe o nome do aluno: ");
@@ -36,38 +38,38 @@ int main() {
 			maiorNota1 = alunos[i].nota1;
 		}
 
-		// Calcula a média geral
+		// Calcula a mÃ©dia geral
 		float mediaGeral = (alunos[i].nota1 + alunos[i].nota2 + alunos[i].nota3) / 3;
 
-		// Verifica a maior média geral
+		// Verifica a maior mÃ©dia geral
 		if (mediaGeral > maiorMediaGeral) {
 			maiorMediaGeral = mediaGeral;
 		}
 
-		// Inicializa a menor média geral com a média do primeiro aluno
+		// Inicializa a menor mÃ©dia geral com a mÃ©dia do primeiro aluno
 		if (i == 0) {
 			menorMediaGeral = mediaGeral;
 		}
-		// Verifica a menor média geral
+		// Verifica a menor mÃ©dia geral
 		else if (mediaGeral < menorMediaGeral) {
 			menorMediaGeral = mediaGeral;
 		}
 	}
 
 	printf("Maior nota da primeira prova: %.2f\n", maiorNota1);
-	printf("Maior média geral: %.2f\n", maiorMediaGeral);
-	printf("Menor média geral: %.2f\n", menorMediaGeral);
+	printf("Maior mÃ©dia geral: %.2f\n", maiorMediaGeral);
+	printf("Menor mÃ©dia geral: %.2f\n", menorMediaGeral);
 	printf("\n");
 
 	// Verifica se cada aluno foi aprovado ou reprovado
 	for (i = 0; i < 5; i++) {
 		float mediaGeral = (alunos[i].nota1 + alunos[i].nota2 + alunos[i].nota3) / 3;
 		printf("Aluno: %s\n", alunos[i].nome);
-		printf("Média geral: %.2f\n", mediaGeral);
+		printf("MÃ©dia geral: %.2f\n", mediaGeral);
 		if (mediaGeral >= 6) {
-			printf("Situação: Aprovado\n");
+			printf("SituaÃ§Ã£o: Aprovado\n");
 		} else {
-			printf("Situação: Reprovado\n");
+			printf("SituaÃ§Ã£o: Reprovado\n");
 		}
 		printf("\n");
 	}
